@@ -1,0 +1,12 @@
+{
+  "name": "Sekretariat_HMTI_ThreeJS",
+  "version": "1.0.0",
+  "main": "./",
+  "repository": "https://github.com/logixode/Sekretariat-HMTI-ThreeJS",
+  "author": "Rohmad Kurniadi",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "three": "^0.126.0"
+  }
+}
