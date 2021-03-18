@@ -1,3 +1,9 @@
+let THREE = require("three/build/three");
+
+window.THREE = THREE;
+require("three/examples/js/controls/OrbitControls");
+require("three/examples/js/loaders/GLTFLoader");
+
 var scene = new THREE.Scene();
 var cam = new THREE.PerspectiveCamera(
   50,
@@ -57,7 +63,7 @@ loader.load(
   },
   // called when loading has errors
   function (error) {
-    console.log("An error happened");
+    console.log(error);
   }
 );
 

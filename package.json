@@ -6,7 +6,16 @@
   "author": "Rohmad Kurniadi",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "webpack --watch --mode=development",
+    "prod": "webpack --mode=production"
+  },
   "dependencies": {
     "three": "^0.126.0"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
   }
 }
