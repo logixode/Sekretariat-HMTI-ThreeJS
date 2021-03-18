@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "dev": "webpack --watch --mode=development",
-    "prod": "webpack --mode=production"
+    "build": "webpack --mode=production"
   },
   "dependencies": {
     "three": "^0.126.0"

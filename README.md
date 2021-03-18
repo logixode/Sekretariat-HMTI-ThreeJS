@@ -16,10 +16,18 @@ NPM :
 npm install
 ```
 
+```sh
+npm run build
+```
+
 Yarn :
 
 ```sh
 yarn install
+```
+
+```sh
+yarn build
 ```
 
 ## Meta
